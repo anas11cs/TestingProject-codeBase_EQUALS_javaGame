@@ -1,0 +1,12 @@
+In Files Code1, Code2, Code3
+
+Function Sizes to test are below::
+
+Small: swapGem(6),
+Medium: createBoard(23), createGUI(21), ButtonHandler(16), isValidMove(23), blastUISpecialGem(17)
+Large: processClick(66), dropSpecialGemsCase(61)
+
+Work Divison:
+--
+Kazim Tests: swapGem(6),createBoard(23), createGUI(21),dropSpecialGemsCase(61)=111 lines of code
+Anas Tests: isValidMove(23), blastUISpecialGem(17), processClick(66), ButtonHandler(16)=122 lines of code
